@@ -1,1 +1,1 @@
-# credit
+https://lookingtooking.github.io/credit/index.html

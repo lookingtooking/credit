@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+body{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+.container{
+    position: relative;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 350px;
+    padding-top: 100px;
+    padding-left: 40px;
+    background-color: rgba(58, 207, 200, 0.336);
+}
+
+.container{
+    background-image: url(assets/moon_flag.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 430px 100px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    width: 130px;
+}
+
+.title{
+    position: absolute;
+    width: 60%;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    top: 4vh;
+    left: -30px;
+    padding: 10px 0px 10px 70px;
+    letter-spacing: 1.2px;
+    z-index: 2;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+
+input[type="text"]{
+    font-size: 20px;
+margin: 10px 0;
+width: 55%;
+height: 40px;
+border: none;
+border-bottom: 1px solid black;
+padding-left: 10px;
+background-color: rgba(191, 241, 231, 0.418);
+}
+
+input[type="text"]::placeholder{
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.bot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#textdate{
+    width: 50%;
+}
+
+#cvv{
+    width: 30%;
+    padding-left: 20%;
+}
+
+#date, #date2, input[type="password"]{
+    width: 27%;
+    margin-right: 20px;
+}
+
+
+
+input[type="password"]{
+    font-size: 20px;
+margin: 10px 0;
+height: 40px;
+border: none;
+border-bottom: 1px solid black;
+padding-left: 10px;
+background-color: rgba(191, 241, 231, 0.418);
+}
+
+.string{
+    display: flex;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
